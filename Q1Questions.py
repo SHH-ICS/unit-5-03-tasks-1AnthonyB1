@@ -9,7 +9,8 @@ A = []
 for i in range(4):
     A.append(input(f"Answer {i + 1}: "))
 
-Correct = int(input("\nCorrect Index: "))
+Correct = int(input("\nCorrect answer number\n(example: 1 for answer 1)\nType the number here: "))
+print("\nProceed to Q2Quiz,py to see or answer your question\n")
 
 myJson = {"Question":Question, "Answers":A, "Correct":Correct}
 
